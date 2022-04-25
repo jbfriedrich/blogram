@@ -39,7 +39,7 @@
         "ms-python.vscode-pylance"
     ],
 
-    "mounts": ["source=st-sync,target=/posts,type=volume"],
+    "mounts": ["source=st-sync:/posts,target=/posts,type=volume"],
 
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
     // "forwardPorts": [],
