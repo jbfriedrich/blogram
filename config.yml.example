@@ -1,0 +1,12 @@
+# Blog and git configuration
+basedir: '/data'
+pubdir: '/published'
+blogs:
+  blog1:
+    gitrepo: 'git@github.com:username/blogrepo.git'
+    gitbranch: 'testing'
+    sshkey: 'ssh-rsa A...xQ== jbfriedrich@users.noreply.github.com'
+  blog2:
+    gitrepo: somerepo
+    gitbranch: main
+    sshkey: fixme
